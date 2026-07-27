@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alexander Knight — mechanical engineering student, designer, fabricator, and FPV pilot.">
+  <meta name="theme-color" content="#0a0d12">
+  <title>Alexander Knight | Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="mobile-menu" type="button" aria-controls="sidebar" aria-expanded="false">Menu</button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="identity">
+      <img src="assets/project-01.webp" alt="Alexander Knight holding a custom bicycle frame">
+      <div>
+        <a class="name" href="#home">Alexander Knight</a>
+        <p>Mechanical Engineering</p>
+        <span>Cal Poly · San Luis Obispo</span>
+      </div>
+    </div>
+
+    <nav class="side-nav" aria-label="Portfolio pages">
+      <a href="#home" data-page="home"><span>01</span>Home</a>
+      <a href="#projects" data-page="projects"><span>02</span>Projects</a>
+      <a href="#fpv" data-page="fpv"><span>03</span>FPV</a>
+      <a href="#experience" data-page="experience"><span>04</span>Experience</a>
+      <a href="#resume" data-page="resume"><span>05</span>Resume</a>
+      <a href="#contact" data-page="contact"><span>06</span>Contact</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="mailto:adknight@calpoly.edu">adknight@calpoly.edu</a>
+      <a href="https://www.linkedin.com/in/alexander-knight-157779256" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <p>© <span id="year"></span> Alexander Knight</p>
+    </div>
+  </aside>
+
+  <main class="content">
+    <section class="page active" id="home" aria-labelledby="home-title">
+      <div class="home-grid">
+        <div class="home-copy">
+          <p class="eyebrow">Design · Fabrication · Prototyping</p>
+          <h1 id="home-title">I turn engineering ideas into working hardware.</h1>
+          <p class="lede">I’m a mechanical engineering student at Cal Poly focused on machines, vehicles, manufacturing, and FPV systems. My work spans CAD, machining, TIG welding, electronics, CNC fabrication, and rapid prototyping.</p>
+          <div class="actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button" href="assets/Alexander-Knight-Resume.pdf" target="_blank" rel="noopener">Resume PDF ↗</a>
+          </div>
+          <dl class="quick-facts">
+            <div><dt>2027</dt><dd>Expected B.S.M.E.</dd></div>
+            <div><dt>6+</dt><dd>Major build projects</dd></div>
+            <div><dt>2020–Now</dt><dd>FPV flight experience</dd></div>
+          </dl>
+        </div>
+        <figure class="home-visual">
+          <img src="assets/project-02.webp" alt="Completed custom blue 32-inch gravel bike">
+          <figcaption>Custom 32-inch gravel bike — geometry, framebuilding, TIG welding, and final assembly.</figcaption>
+        </figure>
+      </div>
+      <div class="skill-strip" aria-label="Technical skills">
+        <span>SolidWorks</span><span>Fusion 360</span><span>CNC/CAM</span><span>TIG Welding</span><span>Machining</span><span>3D Printing</span><span>Electronics</span><span>FPV</span>
+      </div>
+    </section>
+
+    <section class="page" id="projects" aria-labelledby="projects-title">
+      <header class="page-header">
+        <p class="eyebrow">Selected engineering work</p>
+        <h2 id="projects-title">Projects</h2>
+        <p>Click a project to expand its details and build photos.</p>
+      </header>
+
+      <div class="project-list">
+        <details class="project" open>
+          <summary>
+            <img src="assets/project-02.webp" alt="Completed 32-inch gravel bike">
+            <div><span>Spring 2026</span><h3>32-inch Gravel Bike</h3><p>Custom chromoly frame designed around emerging 32-inch wheel components.</p></div>
+            <b>+</b>
+          </summary>
+          <div class="project-detail">
+            <p>I developed the geometry, mitered 0.035-inch chromoly tubing, fit the tubes in a frame jig, TIG welded the frame, and incorporated metal 3D-printed dropouts for SRAM UDH and flat-mount braking.</p>
+            <div class="tags"><span>Frame Design</span><span>TIG Welding</span><span>Machining</span><span>Metal AM</span></div>
+            <div class="image-grid"><img src="assets/project-18.webp" alt="Bike frame in a professional jig"><img src="assets/project-17.webp" alt="Chromoly tube being mitered on a milling machine"><img src="assets/project-01.webp" alt="Alexander holding the fabricated bike frame"></div>
+          </div>
+        </details>
+
+        <details class="project">
+          <summary>
+            <img src="assets/project-11.webp" alt="Electric drive electronics mounted on a trolley truck">
+            <div><span>Summer 2025</span><h3>PCC Streetcar Electric Motor Upgrade</h3><p>Battery-electric conversion hardware for a vintage Portland trolley.</p></div>
+            <b>+</b>
+          </summary>
+          <div class="project-detail">
+            <p>Designed and fabricated mounting hardware for modern brushless traction motors, inverters, contactors, and high-voltage components while adapting the system to the original trolley truck.</p>
+            <div class="tags"><span>CAD</span><span>Fabrication</span><span>EV Systems</span><span>High Voltage</span></div>
+            <div class="image-grid"><img src="assets/project-10.webp" alt="Historic Portland streetcars in the shop"><img src="assets/project-09.webp" alt="Original trolley truck before conversion"><img src="assets/project-11.webp" alt="Installed inverter and high-voltage cabling"></div>
+          </div>
+        </details>
+
+        <details class="project">
+          <summary>
+            <img src="assets/project-08.webp" alt="Low-profile roof rack installed on a van">
+            <div><span>Winter 2024</span><h3>Vannon V2 Roof Rack</h3><p>Production-focused aluminum roof rack for Mercedes Sprinter vans.</p></div>
+            <b>+</b>
+          </summary>
+          <div class="project-detail">
+            <p>Developed the system from CAD through CNC-routed prototypes and production-ready hardware, emphasizing low profile, clean installation, and repeatable fabrication.</p>
+            <div class="tags"><span>Product Design</span><span>CNC Routing</span><span>Sheet Metal</span></div>
+            <div class="image-grid"><img src="assets/project-07.webp" alt="Roof rack prototype during fit-up"><img src="assets/project-06.webp" alt="Formed aluminum mounting tab"><img src="assets/project-08.webp" alt="Finished roof rack installed outdoors"></div>
+          </div>
+        </details>
+
+        <details class="project">
+          <summary>
+            <img src="assets/project-15.webp" alt="Large Voron 2.4 CoreXY 3D printer">
+            <div><span>Winter 2025</span><h3>Voron 2.4 3D Printer</h3><p>High-performance CoreXY printer assembled, wired, and tuned from open-source plans.</p></div>
+            <b>+</b>
+          </summary>
+          <div class="project-detail">
+            <p>Completed the mechanical assembly, wiring, firmware configuration, tuning, and custom toolhead enclosure for a fast and reliable home manufacturing platform.</p>
+            <div class="tags"><span>Mechatronics</span><span>Klipper</span><span>3D Printing</span><span>Wiring</span></div>
+            <div class="image-grid"><img src="assets/project-12.webp" alt="Voron printer operating at night"><img src="assets/project-13.webp" alt="Toolhead electronics and wiring"><img src="assets/project-14.webp" alt="Finished custom toolhead cover"></div>
+          </div>
+        </details>
+
+        <details class="project">
+          <summary>
+            <img src="assets/project-16.webp" alt="Green and white FPV flying wing">
+            <div><span>Winter 2026</span><h3>FPV Flying Wing</h3><p>Modular, field-repairable fixed-wing FPV platform using iNav.</p></div>
+            <b>+</b>
+          </summary>
+          <div class="project-detail">
+            <p>Adapted a 3D-printed airframe for reliable FPV use with a Matek F405 Wing controller, modular electronics, and easily replaceable printed sections.</p>
+            <div class="tags"><span>Model Aviation</span><span>iNav</span><span>Electronics</span><span>3D Printing</span></div>
+          </div>
+        </details>
+
+        <details class="project">
+          <summary>
+            <img src="assets/project-05.webp" alt="Running rail assembly on a CNC router table">
+            <div><span>2023–2024</span><h3>Vannon V2 Running Rails</h3><p>Prototype running rails developed into a production product.</p></div>
+            <b>+</b>
+          </summary>
+          <div class="project-detail">
+            <p>Designed and fabricated prototype running rails for Mercedes Sprinter vans, including full-sheet CNC routing, formed brackets, fixtures, and iterative vehicle fit-up.</p>
+            <div class="tags"><span>DFM</span><span>Fixture Design</span><span>Prototype Testing</span><span>CNC</span></div>
+            <div class="image-grid"><img src="assets/project-04.webp" alt="CNC-cut aluminum rail components"><img src="assets/project-03.webp" alt="Fabricated running rail fixture"><img src="assets/project-05.webp" alt="Full running rail assembly"></div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="page" id="fpv" aria-labelledby="fpv-title">
+      <header class="page-header">
+        <p class="eyebrow">Flight work</p>
+        <h2 id="fpv-title">FPV Footage</h2>
+        <p>Action-sports tracking, low-altitude lines, and fixed-wing flight.</p>
+      </header>
+      <div class="video-card">
+        <div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/b_tuU-IBOCc?start=76&amp;rel=0" title="Alexander Knight FPV footage" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="video-copy"><span>FPV Reel</span><h3>Selected flight footage</h3><p>Fast, low-altitude flying with dynamic movement and action-focused framing.</p><a class="button" href="https://www.youtube.com/watch?v=b_tuU-IBOCc&t=76s" target="_blank" rel="noopener">Watch on YouTube ↗</a></div>
+      </div>
+      <div class="fpv-notes">
+        <div><strong>Platforms</strong><p>FPV quadcopters and fixed-wing aircraft</p></div>
+        <div><strong>Software</strong><p>Betaflight and iNav configuration</p></div>
+        <div><strong>Focus</strong><p>Action sports, cinematic lines, and technical flight</p></div>
+      </div>
+    </section>
+
+    <section class="page" id="experience" aria-labelledby="experience-title">
+      <header class="page-header"><p class="eyebrow">Background</p><h2 id="experience-title">Experience</h2><p>Hands-on engineering across product development, manufacturing, and vehicle systems.</p></header>
+      <div class="timeline">
+        <article><time>2025</time><div><h3>Design &amp; Fabrication · Vintage Trolley Inc.</h3><p>Designed and manufactured parts for a battery-electric streetcar conversion, including inverter and high-voltage component mounts.</p></div></article>
+        <article><time>2023–2025</time><div><h3>Research &amp; Design Engineer · Vannon</h3><p>Designed camper-van accessories, machined prototypes on a 5 × 10 ft CNC router, and supported products from research through production.</p></div></article>
+        <article><time>2024</time><div><h3>Machinist Intern · AMC Machining</h3><p>Supported CNC mill and lathe setup, wrote milling programs in Fusion 360, and learned production machining practices.</p></div></article>
+        <article><time>2023–2027</time><div><h3>B.S. Mechanical Engineering · Cal Poly</h3><p>Coursework includes dynamics, fluid mechanics, MATLAB, engineering design, and CAD.</p></div></article>
+      </div>
+    </section>
+
+    <section class="page" id="resume" aria-labelledby="resume-title">
+      <header class="page-header"><p class="eyebrow">Qualifications</p><h2 id="resume-title">Resume</h2><p>Education, technical skills, professional experience, leadership, and awards.</p></header>
+      <div class="resume-panel">
+        <div><h3>Alexander D. Knight</h3><p>Mechanical Engineering Student · Cal Poly San Luis Obispo</p></div>
+        <div class="actions"><a class="button primary" href="assets/Alexander-Knight-Resume.pdf" target="_blank" rel="noopener">Open resume PDF ↗</a><a class="button" href="assets/Alexander-Knight-Project-Portfolio.pdf" target="_blank" rel="noopener">Project portfolio PDF ↗</a></div>
+      </div>
+      <div class="resume-grid">
+        <article><span>Technical</span><h3>Core Skills</h3><p>SolidWorks, Fusion 360, machining, soldering, welding, MATLAB, 3D printing, laser cutting, waterjet, CNC/CAM, FPV systems.</p></article>
+        <article><span>Leadership</span><h3>Organizations</h3><p>Cal Poly Cycling, Cal Poly Unicycle Club, Cal Poly Future Fuels, NICA mountain bike coaching.</p></article>
+        <article><span>Recognition</span><h3>Awards</h3><p>Cal Poly Dean’s List, Cal Poly Scholars Award, engineering scholarships, and California Mid-State Fair Best in Show.</p></article>
+      </div>
+    </section>
+
+    <section class="page" id="contact" aria-labelledby="contact-title">
+      <div class="contact-layout">
+        <div><p class="eyebrow">Get in touch</p><h2 id="contact-title">Let’s build something.</h2><p class="lede">I’m interested in engineering internships, product-development work, fabrication projects, and FPV opportunities.</p></div>
+        <div class="contact-cards">
+          <a href="mailto:adknight@calpoly.edu"><span>Email</span><strong>adknight@calpoly.edu</strong><b>↗</b></a>
+          <a href="tel:+18055504008"><span>Phone</span><strong>(805) 550-4008</strong><b>↗</b></a>
+          <a href="https://www.linkedin.com/in/alexander-knight-157779256" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Alexander Knight</strong><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="scrim" hidden></div>
+  <script src="script.js"></script>
+</body>
+</html>
